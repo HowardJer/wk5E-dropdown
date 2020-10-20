@@ -1,0 +1,87 @@
+
+
+
+h1 {
+    text-align: center;  
+    font-size: 4rem;  
+}
+.dropdown3 {
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.dropdown3  > li{
+    height: 30px;
+    background: #999999;
+}
+
+.dropdown3 > li:hover {
+    background: #cccccc;
+}
+
+.dropdown2 {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.dropdown2 > li
+{
+    position: relative;
+    height: 30px;
+    background: #999999;
+}
+.dropdown2 > li:hover { 
+    background: #CCCCCC; 
+}
+
+.dropdown1
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.dropdown1 > li
+{
+    position: relative;
+    float: left;
+    height: 30px;
+    width: 350px;
+    background: #999999;
+}
+.dropdown1 > li:hover { background: #CCCCCC; }
+
+.dropdown1 li:hover > ul
+{
+    /* On hover, display the next level's menu */
+    display: inline;
+}
+
+
+/* Menu Link Styles */
+
+.dropdown1 a /* Apply to all links inside the multi-level menu */
+{
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 0 0 10px;
+
+    /* Make the link cover the entire list item-container */
+    display: block;
+    line-height: 30px;
+}
+.dropdown1 a:hover { color: #000000; }
